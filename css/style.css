@@ -66,20 +66,25 @@ a:focus, a:hover {
 	min-height: 750px;
 }
 .col-md-6.w3-banner-grid-left {
+	margin-left:-70px;
     width: 50%;
     float: left;
 }
 .col-md-6.w3-banner-grid-right{
+	
+	margin-left:65px;
     width: 50%;
     float: left;
 }
 .w3-banner-img {
     text-align: center;
+
 }
-ul.address {
+ ul.address {
+	 margin-right: 10em;
     margin-top: 1.5em;
       border-top: 2px dotted #00bcd4;
-    padding-top: 0.5em;
+    padding-top: 0.5em; 
 }
 ul.address li ul.agileits-address-text li {
     display: inline-block;
@@ -96,8 +101,9 @@ ul.address li ul.agileits-address-text li:nth-child(1) {
     padding: 9em 0 0 0;
 }
 .w3-banner-img img {
-    width: 133px;
-    height: 133px;
+	margin-top: -40px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 .w3-right-addres-1 li {
@@ -110,18 +116,20 @@ ul.agileits-address-text li a {
     color:rgba(255, 255, 255, 0.76);
 }
 .w3-banner-img h3 {
-    color: #fff;
-    font-size: 2.8em;
+    color:#fff;
+    font-size: 2.5em;
     font-weight: 600;
-    text-transform: uppercase;
-        letter-spacing:1px;
-   font-family: 'Raleway', sans-serif;
+  
+        letter-spacing:2px;
+   font-family: 'Foobar Pro', sans-serif;
 }
 .w3-banner-img p {
-    color: #ffc53e;
-    font-size: 1em;
-    line-height: 1.5em;
-    text-transform: uppercase;
+    color: black;
+    font-size: 2em;
+    margin-bottom: 28px;
+    font-weight: 3px;
+    line-height: 3px;
+
 	letter-spacing: 2px;
 }
 .w3-banner-grid-right h3 {
@@ -617,8 +625,9 @@ li.agile-it-adress-left b {
 }
 .w3-about-grid-left2 h4 {
        background: #f9a300;
-    width: 17%;
+    width: 30%;
     padding: 0.5em;
+    text-align: center;
     letter-spacing: 2px;
     font-size: 1.5em;
     margin: 2em 0 0 0;
@@ -1494,7 +1503,7 @@ h4.modal-title {
     margin-left: 8em;
 	}
 	.w3-banner-grids {
-    padding: 7em 0 0 0;
+    padding: 9em 0 0 0;
 	}
 	.w3-banner-top {
     background: url(../images/ban6666.jpg) no-repeat -739px 0px;
@@ -1682,7 +1691,7 @@ h4.modal-title {
     font-size: 2.5em;
 	}
 }
-@media(max-width:414px){
+@media(max-width:414 px){
 	.col-md-6.w3-banner-grid-left {
     width: 100%;
     float: left;
